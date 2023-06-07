@@ -1,0 +1,51 @@
+/*
+    #FDF9E8 Cream white
+    #BEC5AD Ash Gray
+    #A4B494 Sage
+    #519872 Sea Green
+    #3B5249 FeldGrau
+    #34252F Raisin Black
+*/
+
+* {
+  color: $base-color;
+  background-color: $base-bg-color;
+  font-family: "Marcellus", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: 20px + ($i * 4);
+    font-weight: 600 - ($i * 100);
+  }
+}
+
+.page-container{
+  height: 100vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  &::-webkit-scrollbar {
+    height: 9px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 10px;
+  }
+}
+
+.main-containers{
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  overflow-y: hidden;
+}
