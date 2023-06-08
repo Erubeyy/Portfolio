@@ -1,10 +1,9 @@
-import React from 'react';
 
 
 export const GeneralInfo = () => {
 
     return(
-        <div className="main-containers">
+        <div className="child-container">
             <h1>GENERAL INFO</h1>
         </div>
     )

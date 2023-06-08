@@ -1,15 +1,5 @@
-/*
-    #FDF9E8 Cream white
-    #BEC5AD Ash Gray
-    #A4B494 Sage
-    #519872 Sea Green
-    #3B5249 FeldGrau
-    #34252F Raisin Black
-*/
-
 * {
   color: $base-color;
-  background-color: $base-bg-color;
   font-family: "Marcellus", sans-serif !important;
   margin: 0;
   padding: 0;
@@ -33,7 +23,7 @@
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: gray;
+    background-color: $primary-color;
     border-radius: 10px;
   }
 
@@ -43,7 +33,7 @@
   }
 }
 
-.main-containers{
+.child-container{
   height: 100%;
   width: 100%;
   display: inline-block;

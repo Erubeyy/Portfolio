@@ -1,10 +1,9 @@
-import React from 'react';
 
 
 export const Projects = () => {
 
     return(
-        <div className="main-containers">
+        <div className="child-container">
             <h1>PROJECTS</h1>
         </div>
     )
